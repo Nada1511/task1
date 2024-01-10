@@ -1,0 +1,12 @@
+@keyframes opac {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+
+img {
+  animation: opac 3s ease alternate infinite;
+}

@@ -1,0 +1,26 @@
+ @keyframes blink {
+    0%   { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  body{
+    align-items: center;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #blinker {
+   animation: blink 1s infinite;
+  }
+
+  #blinker {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #3498db; /* Choose your border color */
+    background-color: #fff; /* Choose your background color */
+     color: #3498db; /* Choose your text color */
+     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+   margin: 100px;
+} 
